@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="!dll">
+      <UniqueIdentifier>{51c6874e-338c-44a2-bfbb-e5a6081fa838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3dLib">
+      <UniqueIdentifier>{e88ad521-4a2d-4e35-aa76-00ea1b8d5a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{1b86001f-341b-46c2-8bbc-f06413ddc9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{fb32edd1-cb53-4e18-832a-6a19b42c148e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{b8cf3a2c-a1de-4f07-b06c-e0a96969de79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{eb2306dc-835d-4790-a906-7eac29b05326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movie">
+      <UniqueIdentifier>{6705a4a3-9116-4904-9c2b-4bbcbd87fd04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{690902f2-199e-46da-9d5f-b70ff3e43e1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\base\dll.cpp">
+      <Filter>!dll</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>!dll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\DC.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\Device.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\DrawUtil.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\Prim.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\Renderer.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3dLib\Texture.cpp">
+      <Filter>3dLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIBarGraph.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIBasicInfoWnd.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIControl.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIFrameWnd.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIGage.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UINewChatWnd.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIPcGage.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIResizer.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIShortCutWnd.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UISys.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIWaitWnd.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\UIWindowMgr.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\CDec.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\File.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\FileMgr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\FindHack.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\GPak.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\Hash.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\MemFile.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\Res.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\Util.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base\Xml.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\Connection.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\Control.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\md5.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\PacketQueue.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\Sound.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device\Timer.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Language.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Locale.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Movie\CBink.cpp">
+      <Filter>Movie</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Action.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Attr.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Bitmap.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Emblem.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\ImfRes.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Model.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\PaletteRes.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Sprite.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource\Wave.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommonObject.cpp" />
+    <ClCompile Include="src\ExceptionHandler.cpp" />
+    <ClCompile Include="src\GameActor.cpp" />
+    <ClCompile Include="src\GameMode.cpp" />
+    <ClCompile Include="src\GameModePacket.cpp" />
+    <ClCompile Include="src\GameWorld.cpp" />
+    <ClCompile Include="src\Globals.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\ItemInfo.cpp" />
+    <ClCompile Include="src\LoginMode.cpp" />
+    <ClCompile Include="src\Lua.cpp" />
+    <ClCompile Include="src\Mode.cpp" />
+    <ClCompile Include="src\ModeMgr.cpp" />
+    <ClCompile Include="src\MsgStrings.cpp" />
+    <ClCompile Include="src\Packet.cpp" />
+    <ClCompile Include="src\PathFinder.cpp" />
+    <ClCompile Include="src\Pc.cpp" />
+    <ClCompile Include="src\Picker.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PriorityQueue.cpp" />
+    <ClCompile Include="src\RagEffect.cpp" />
+    <ClCompile Include="src\Session.cpp" />
+    <ClCompile Include="src\Skill.cpp" />
+    <ClCompile Include="src\SkillInfo.cpp" />
+    <ClCompile Include="src\Skin.cpp" />
+    <ClCompile Include="src\SnapMgr.cpp" />
+    <ClCompile Include="src\SoundMaker.cpp" />
+    <ClCompile Include="src\View.cpp" />
+    <ClCompile Include="src\Weather.cpp" />
+    <ClCompile Include="src\WinMain.cpp" />
+    <ClCompile Include="..\..\base\pch.h">
+      <Filter>!dll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\base\test.hpp">
+      <Filter>!dll</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\DC.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\Device.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\DrawUtil.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\Prim.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\Renderer.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dLib\Texture.h">
+      <Filter>3dLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIBarGraph.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIBasicInfoWnd.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIControl.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIFrameWnd.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIGage.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UINewChatWnd.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIPcGage.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIResizer.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIShortCutWnd.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UISys.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIWaitWnd.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\UIWindowMgr.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\CDec.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\File.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\FileMgr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\FindHack.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\GPak.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\Hash.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\MemFile.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\Res.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\Util.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base\Xml.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\Connection.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\Control.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\md5.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\PacketQueue.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\Sound.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device\Timer.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Language.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Locale.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Movie\CBink.h">
+      <Filter>Movie</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Action.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Attr.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Bitmap.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Emblem.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\ImfRes.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Model.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\PaletteRes.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Sprite.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource\Wave.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3dActor.h" />
+    <ClInclude Include="src\CommonObject.h" />
+    <ClInclude Include="src\Enum.h" />
+    <ClInclude Include="src\ExceptionHandler.h" />
+    <ClInclude Include="src\GameActor.h" />
+    <ClInclude Include="src\GameMode.h" />
+    <ClInclude Include="src\GameWorld.h" />
+    <ClInclude Include="src\Globals.h" />
+    <ClInclude Include="src\Item.h" />
+    <ClInclude Include="src\ItemInfo.h" />
+    <ClInclude Include="src\LoginMode.h" />
+    <ClInclude Include="src\Lua.h" />
+    <ClInclude Include="src\Mode.h" />
+    <ClInclude Include="src\ModeMgr.h" />
+    <ClInclude Include="src\MsgStrings.h" />
+    <ClInclude Include="src\Packet.h" />
+    <ClInclude Include="src\PathFinder.h" />
+    <ClInclude Include="src\Pc.h" />
+    <ClInclude Include="src\Picker.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\PriorityQueue.h" />
+    <ClInclude Include="src\RagEffect.h" />
+    <ClInclude Include="src\Session.h" />
+    <ClInclude Include="src\Skill.h" />
+    <ClInclude Include="src\SkillInfo.h" />
+    <ClInclude Include="src\Skin.h" />
+    <ClInclude Include="src\SnapMgr.h" />
+    <ClInclude Include="src\SoundMaker.h" />
+    <ClInclude Include="src\Struct.h" />
+    <ClInclude Include="src\View.h" />
+    <ClInclude Include="src\Weather.h" />
+    <ClInclude Include="src\WinMain.h" />
+  </ItemGroup>
+</Project>
