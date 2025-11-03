@@ -184,7 +184,7 @@
 			Name="!dll"
 			>
 			<File
-				RelativePath="..\..\base\dll.cpp"
+				RelativePath=".\base\dll.cpp"
 				>
 			</File>
 			<File
@@ -192,7 +192,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\base\pch.h"
+				RelativePath=".\base\pch.h"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
